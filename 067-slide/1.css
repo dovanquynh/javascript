@@ -1,0 +1,52 @@
+*{margin: 0; padding: 0;} 
+html,body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.next-page {
+    text-align:  center;
+}
+
+.next-page ul {
+    display:  inline;
+} 
+.next-page ul li {
+    display:  inline-block;
+    border: 1px solid gray;
+    text-indent: -9999px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 20px 10px;
+    transition: 0.4s;
+} 
+.next-page ul li:hover,
+.next-page ul li.active-css
+{
+	background: #2c2b2b;
+}
+.slide {
+    height: 100%;
+}
+.slide ul {
+    height: 100%;
+    position: relative;
+}
+.slide ul li {
+    list-style: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.slide ul li .one-slide{
+    position: relative;
+}
+.one-slide .anh{
+    width:  100%;
+    height: 100%;
+    background-size: cover;
+}
+.one-slide .nauduoi1{
+    
+}

@@ -1,0 +1,45 @@
+*{
+	margin:0;
+	padding:0;
+}
+.mauxanh{
+	height: 43px;
+	background: #3b5998;
+	padding-left: 200px;
+}
+.mot-khoi{
+	float: left;
+	position: relative;
+}
+.hienthi{
+	position: absolute;
+	width: 200px;
+	padding: 10px 20px;
+	transition: 0.5s;
+	right: 20px;
+	opacity: 0;
+	visibility: hidden;
+}
+.hienthi:after{
+	content: "";
+	position: absolute;
+	top: -26px;
+	width:0;
+	height: 0;
+	right: 18px;
+	border: 11px #3b5998 solid;
+	border-bottom-color: #ffffff;
+}
+.click{
+	padding: 10px 20px;
+	font-size: 18px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.mautrang{
+	color: #ffffff;
+}
+.hienra{
+	opacity: 1;
+	visibility: visible; 
+}

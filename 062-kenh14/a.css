@@ -1,0 +1,31 @@
+*{
+	margin:0;
+	padding:0;
+}
+.banner{
+	background: url(banner.png) no-repeat;
+	height: 70px;
+}
+.menu {
+    height:  50px;
+    line-height: 50px;
+    background: red;
+    transition: 0.4s;
+}
+.menu a {
+    color: #fff;
+    padding:  0 20px;
+    font-family:  sans-serif;
+}
+.menuden{
+	position:fixed;
+	z-index: 2;
+	top:0;
+	background: #000000;
+	width: 100%;
+}
+.vang-dung-lai{
+	position: fixed;
+	top:50px;
+	
+}
